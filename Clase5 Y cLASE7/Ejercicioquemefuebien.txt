@@ -1,0 +1,15 @@
+EJERCICIO 20 DE "https://users.csc.calpoly.edu/~jdalbey/103/Demo/LinkedListExercises/index.html":
+r=p.next.next.next.next
+p.next.next.next.next=p.next.next.next
+p.next.next.next=p.next.next
+p.next.next=p.next
+p.next=null
+p=r;
+
+-A LA MANERA DEL INGE: 
+r=p
+p=next.next.next
+p.next=r.next.next (no alcancé a copiar)
+
+
+PARA LA PROXIMA CLASE VAMOS A VER LISTAS DOBLEMENTE ENLAZADAS.
